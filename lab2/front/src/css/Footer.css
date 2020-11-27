@@ -1,0 +1,10 @@
+.footer{
+    height: 6vh;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.footer div{
+    display: flex;
+    justify-content: center;
+}

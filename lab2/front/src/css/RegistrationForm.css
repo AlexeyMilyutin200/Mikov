@@ -1,0 +1,49 @@
+.registration-form-container {
+    display: flex;
+    justify-content: center;
+    min-height: 60vh;
+    align-items:center;
+}
+
+.lab2-registration-form h1 {
+    text-align:center;
+    margin: 0;
+    font-weight: normal;
+}
+
+.lab2-registration-form {
+    width:500px;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.lab2-registration-form input,
+.lab2-registration-form button{
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.lab2-registration-form-group {
+    position:relative;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.lab2-registration-form-group div{
+    margin: 1rem;
+}
+
+.lab2-registration-form input {
+    width: 100%;
+    padding: 0 0 10px 0;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+}

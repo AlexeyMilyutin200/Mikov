@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #082567;
+    border-radius: 0 0 7px 7px;
+    display: flex;
+    justify-content: space-between;
+    color: #c99868;
+    height: 6vh;
+}
+
+.logo{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.navbar-list li {
+    margin-right: 40px;
+    list-style-type: none
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
